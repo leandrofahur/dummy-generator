@@ -1,0 +1,30 @@
+{
+  "name": "dummy-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrofahur/dummy-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrofahur/dummy-generator/issues"
+  },
+  "homepage": "https://github.com/leandrofahur/dummy-generator#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
